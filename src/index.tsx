@@ -3,9 +3,10 @@ import { createRoot } from 'react-dom/client';
 import { Provider } from 'react-redux';
 import { store } from './app/store';
 import App from './App';
-import RelatorioIndividual from './RelatotioIndividual';
-import RelatorioGeral from './RelatorioGeral';
-import CadastroUsuario from './CadastroUsuario';
+import RelatorioIndividual from './pages/RelatotioIndividual';
+import RelatorioGeral from './pages/RelatorioGeral';
+import CadastroUsuario from './pages/CadastroUsuario';
+import PagLogin from './pages/PagLogin';
 import './index.css';
 import  'bootstrap/dist/css/bootstrap.min.css' ;
 
@@ -15,6 +16,7 @@ const root = createRoot(container);
 root.render(
   <React.StrictMode>
     <Provider store={store}>
+      <PagLogin />
       <App />
       <CadastroUsuario/>
       <RelatorioGeral />

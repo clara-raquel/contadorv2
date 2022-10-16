@@ -8,10 +8,6 @@ h1{
 }
 
 
-navbar{
-  background-color: #40A614;
-}
-
 .botoes{
   display: flex;
   justify-content: space-evenly;

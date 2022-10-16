@@ -3,15 +3,15 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
-import './App.css';
-import iconeExcluir from './src/images/iconeexcluir.jpg';
-import iconeEditar from './src/images/iconeeditar.png';
+import './Pages.css';
+import iconeExcluir from './src/assets/iconeexcluir.jpg';
+import iconeEditar from './src/assets/iconeeditar.png';
 
 const titulo = {
     fontWeight: '800',
 };
 
-function RelatorioGeral() {
+function CadastroUsuarios() {
     return (
         <>
             <Navbar style={{ backgroundColor: '#58943E' }} expand="lg" className='navbar'>
@@ -72,8 +72,8 @@ function RelatorioGeral() {
                                         <td><a href="RelatorioGeral" className='caminho'>Clara</a></td>
                                         <td>clara@email.com</td>
                                         <td>123456</td>
-                                        <td><button className='iconeeditar' type="submit"><img className='iconeeditar' src='iconeeditar.png' alt='editar'></img></button></td>
-                                        <td><button className='iconeexcluir' type="submit"><img className='iconeexcluir' src='iconeexcluir.jpg' alt='excluir'></img></button></td>
+                                        <td><button className='iconeeditar' type="submit"><img className='iconeeditar' src='./src/assets/iconeeditar.png' alt='editar'></img></button></td>
+                                        <td><button className='iconeexcluir' type="submit"><img className='iconeexcluir' src='./src/assets/iconeexcluir.jpg' alt='excluir'></img></button></td>
                                     </tr>
                                     <tr>
                                         <td><a href="RelatorioGeral" className='caminho'>Raquel</a></td>
@@ -100,4 +100,4 @@ function RelatorioGeral() {
 }
 
 
-export default RelatorioGeral;
+export default CadastroUsuarios;
