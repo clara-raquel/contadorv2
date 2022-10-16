@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+h1{
+  color: #43AD15;
+  display: flex;
+  justify-content: center;
+  font-weight: 800;
+}
+
+
+navbar{
+  background-color: #40A614;
+}
+
+.botoes{
+  display: flex;
+  justify-content: space-evenly;
+  
+}
+
+.crono{
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.tempo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 70px;
+  border-radius: 15px; 
+  font-size: 33px;
+  background-color: #88E660;
+  border: 3px solid #43AD15;
+  font-weight: 800;
+}
+
+#conteudo{
+  background-color: #58943E;
+  border: 3px solid #43AD15;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 6%;
+  border-radius: 20px;
+  margin-bottom: 50px;
+}
+
+h3{
+  color: white;
+  margin: 30px;
+}
+
+thead{
+  color: white;
+  font-weight: 800;
+}
+
+tbody{
+  color: #88E660;
+}
+
+.inferior{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 50px;
+}
+ .infesquerdo{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+ }
+
+.tempototal{
+  color: #88E660;
+  font-size: 30px;
+  font-weight: 800;
+}
+
+.botaorelatorio{
+  border: 3px solid #43AD15;
+  background-color: #88E660; 
+  max-width: 200px; 
+  height: auto; 
+  min-height: 50px; 
+  border-radius: 15px; 
+  font-size: 20px; 
+  margin-left: auto; 
+  margin-right: auto;
+  white-space: normal;
+  font-weight: 800;
+}
+
+.linhaum{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.selecionar{
+  background-color: #88E660;
+  margin-left: 50px;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  border: 3px solid #43AD15;
+  border-radius: 10px;
+  font-size: 16px;
+  width: auto;
+  height: 50px;
+}
+
+
+
+.tempototal{
+  color: #88E660;
+  font-size: 30px;
+}
+
+.caminho{
+  text-decoration: none;
+  color: #88E660;
+}
+
+.caminho:hover{
+  text-decoration: none;
+  color: #28780B; 
+}
+
+.caminho:active{
+  text-decoration: none;
+  color: white; 
+}
+
+#botaocadastrar{
+margin-left: 40%;
+text-decoration: none;
+color: black; 
+}
+
+.cadastro{
+  display: flex;
+  justify-content: flex-end;
+}
+
+label{
+  color: white;
+}
+
+#nome, #email, #senha{
+  background-color: #88E660;
+  width: 85%;
+  border-radius: 10px;
+  border: none;
+  margin-bottom: 15px;
+}
+
+
+
+
+
+
+
+.App-header {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+}
+
+.App-link {
+  color: rgb(112, 76, 182);
+}
+
+@keyframes App-logo-float {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(10px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
