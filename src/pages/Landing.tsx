@@ -4,8 +4,8 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import './Pages.css';
-import iconeEditar from './src/assets/iconeeditar.png';
-import iconeExcluir from './src/assets/iconeexcluir.jpg';
+import iconeEditar from '../assets/images/iconeeditar.png';
+import iconeExcluir from '../assets/images/iconeexcluir.jpg';
 
 
 

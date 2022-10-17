@@ -6,6 +6,7 @@ import App from './App';
 import RelatorioIndividual from './pages/RelatotioIndividual';
 import RelatorioGeral from './pages/RelatorioGeral';
 import CadastroUsuario from './pages/CadastroUsuario';
+import Landing from './pages/Landing';
 import PagLogin from './pages/PagLogin';
 import './index.css';
 import  'bootstrap/dist/css/bootstrap.min.css' ;
@@ -17,7 +18,7 @@ root.render(
   <React.StrictMode>
     <Provider store={store}>
       <PagLogin />
-      <App />
+      <Landing />
       <CadastroUsuario/>
       <RelatorioGeral />
       <RelatorioIndividual />
