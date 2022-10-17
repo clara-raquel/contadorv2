@@ -9,7 +9,7 @@ import CadastroUsuario from './pages/CadastroUsuario';
 import Landing from './pages/Landing';
 import PagLogin from './pages/PagLogin';
 import './index.css';
-import  'bootstrap/dist/css/bootstrap.min.css' ;
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 const container = document.getElementById('root')!;
 const root = createRoot(container);
@@ -17,11 +17,15 @@ const root = createRoot(container);
 root.render(
   <React.StrictMode>
     <Provider store={store}>
-      <PagLogin />
-      <Landing />
-      <CadastroUsuario/>
-      <RelatorioGeral />
-      <RelatorioIndividual />
+      <BrowserRouter>
+        <Routes>
+          <Route path='/' element={<PagLogin />} />
+          <Route path="/cronometro" element={<Landing />} />
+          <Route path="/individual" element={<RelatorioIndividual />} />
+          <Route path="/geral" element={<RelatorioGeral />} />
+          <Route path="/cadastro" element={<CadastroUsuario />} />
+        </Routes>
+      </BrowserRouter>
     </Provider>
   </React.StrictMode>
 );
